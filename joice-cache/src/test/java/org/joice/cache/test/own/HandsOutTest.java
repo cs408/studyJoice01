@@ -9,8 +9,6 @@
 
 package org.joice.cache.test.own;
 
-import static org.junit.Assert.*;
-
 import org.junit.Test;
 
 /**
@@ -48,7 +46,16 @@ public class HandsOutTest {
 	 */
 	@Test
 	public void testVerificationCode(){
-		
+		String string ="";
+		int array =4;
+		for (int i = 0; i < array; i++) {
+			System.out.println((int)(Math.random()*26));
+//			int value = (int)(Math.random()*26+97);
+			int value = (int)(Math.random()*26)+97;
+			string += (char)value;
+			
+		}
+		System.out.println(string);
 	}
 	
 	/**
