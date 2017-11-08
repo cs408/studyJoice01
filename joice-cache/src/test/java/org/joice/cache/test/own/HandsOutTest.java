@@ -49,7 +49,6 @@ public class HandsOutTest {
 		String string ="";
 		int array =4;
 		for (int i = 0; i < array; i++) {
-			System.out.println((int)(Math.random()*26));
 //			int value = (int)(Math.random()*26+97);
 			int value = (int)(Math.random()*26)+97;
 			string += (char)value;
